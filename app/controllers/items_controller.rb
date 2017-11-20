@@ -49,4 +49,5 @@ before_action :find_item, only: [:show, :edit, :update, :destroy]
     def find_item
         @item = Item.find(params[:id])
     end
+end
 
